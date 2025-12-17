@@ -1,0 +1,1 @@
+RouteFit - Eligibility Snapshot Cards: Fast eligibility snapshots for 10-30 digital nomad/telework programs. Filters: nationality, work type, income, dependents. Cards with Pass/Likely/Check nuance/Not eligible, details modal, PDF/CSV export.
