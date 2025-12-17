@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://routefit.com/schemas/programs.schema.json",
+  "title": "RouteFitProgram",
+  "description": "Schema for RouteFit eligibility programs",
+  "type": "object",
+  "properties": {
+    "program_id": {
+      "type": "string",
+      "description": "Unique identifier for the program"
+    },
+    "country_code": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2 country code"
+    },
+    "name": {
+      "type": "string",
+      "description": "Official or common name of the program"
+    },
+    "work_types": {
+      "type": "array",
+      "items": {
+        "enum": ["employee", "freelancer", "self_employed"]
+      },
+      "minItems": 1,
+      "description": "Types of work arrangement accepted"
+    },
+    "nationality_rules": {
+      "type": "object",
+      "properties": {
+        "excluded_nationalities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "description": "ISO country codes of excluded nationalities"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional notes about nationality requirements"
+        }
+      },
+      "required": ["excluded_nationalities"]
+    },
+    "income_requirement": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Minimum income amount"
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "ISO 4217 currency code"
+        },
+        "basis": {
+          "enum": ["monthly", "annual"],
+          "description": "Whether amount is monthly or annual"
+        }
+      },
+      "required": ["amount", "currency", "basis"]
+    },
+    "dependents_allowed": {
+      "type": "boolean",
+      "description": "Whether dependents can be included"
+    },
+    "local_work_cap_percent": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Maximum percentage of income from local companies (null if no restriction)"
+    },
+    "insurance_min": {
+      "type": ["object", "null"],
+      "properties": {
+        "amount": {
+          "type": "number",
+          "minimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        }
+      },
+      "required": ["amount", "currency"],
+      "description": "Minimum insurance coverage required"
+    },
+    "duration_months": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Initial permit duration in months"
+    },
+    "renewable": {
+      "type": "boolean",
+      "description": "Whether the permit is renewable"
+    },
+    "application_channel": {
+      "type": "string",
+      "description": "Where/how to apply"
+    },
+    "official_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official source URL"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date",
+      "description": "Date information was last verified (ISO 8601)"
+    },
+    "confidence": {
+      "enum": ["official_law", "official_guidance", "post_practice"],
+      "description": "Confidence level of the information"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes or nuances"
+    }
+  },
+  "required": [
+    "program_id",
+    "country_code",
+    "name",
+    "work_types",
+    "income_requirement",
+    "duration_months",
+    "official_url",
+    "as_of"
+  ]
+}

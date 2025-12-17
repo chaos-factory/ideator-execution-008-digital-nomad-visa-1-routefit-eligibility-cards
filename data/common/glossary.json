@@ -1,0 +1,21 @@
+{
+  "work_type_employee": "Working as a W2/PAYE employee for a company registered outside the destination country",
+  "work_type_freelancer": "Working as an independent contractor or freelancer with multiple clients",
+  "work_type_self_employed": "Operating your own business or working as a sole proprietor",
+  "status_pass": "You meet all documented requirements for this program based on current regulations",
+  "status_likely": "You likely qualify but there may be nuances or borderline conditions to review",
+  "status_check_nuance": "Additional factors may affect eligibility - review program details carefully",
+  "status_not_eligible": "Based on your inputs, you do not meet one or more core requirements",
+  "confidence_official_law": "Based on official legislation or published legal text",
+  "confidence_official_guidance": "Based on government agency guidance or official announcements",
+  "confidence_post_practice": "Based on reported practices from approved applications",
+  "income_requirement": "Minimum monthly or annual income you must demonstrate to qualify",
+  "insurance_min": "Minimum health insurance coverage amount required",
+  "local_work_cap": "Maximum percentage of income that can come from local companies in the destination country",
+  "duration_months": "Initial permit duration in months",
+  "renewable": "Whether the permit can be extended or renewed",
+  "dependents_allowed": "Whether you can include dependents (spouse, children) on your application",
+  "application_channel": "Where and how to submit your application",
+  "as_of": "Date when this information was last verified",
+  "excluded_nationalities": "Nationalities that are explicitly excluded or face additional restrictions"
+}
