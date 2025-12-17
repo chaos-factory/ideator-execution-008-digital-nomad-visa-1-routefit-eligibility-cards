@@ -1,5 +1,3 @@
-import { AnalyticsEvents } from '../utils/analytics';
-
 interface ExportBarProps {
   count: number;
   onExportPDF: () => void;

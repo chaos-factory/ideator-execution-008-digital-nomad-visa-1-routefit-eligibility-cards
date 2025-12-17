@@ -23,8 +23,8 @@ const FREE_LIMIT = 5;
 export default function Home() {
   const { filters, updateFilters } = useFilters();
   const { rates, loading: ratesLoading } = useECBRate();
-  const { shortlist, toggleShortlist, clearShortlist, isShortlisted, count: shortlistCount } = useShortlist();
-  const { observeCard, trackEvent: track } = useAnalytics();
+  const { shortlist, toggleShortlist, clearShortlist, count: shortlistCount } = useShortlist();
+  const { observeCard } = useAnalytics();
   const [selectedProgram, setSelectedProgram] = useState<ProgramWithEligibility | null>(null);
   const [showPaywall, setShowPaywall] = useState(false);
 

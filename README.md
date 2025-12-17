@@ -1,73 +1,85 @@
-# React + TypeScript + Vite
+# RouteFit - Eligibility Snapshot Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Pages Deploy](https://github.com/chaos-factory/ideator-execution-008-digital-nomad-visa-1-routefit-eligibility-cards/actions/workflows/pages.yml/badge.svg)](https://github.com/chaos-factory/ideator-execution-008-digital-nomad-visa-1-routefit-eligibility-cards/actions/workflows/pages.yml)
 
-Currently, two official plugins are available:
+**🌐 Live Site:** [https://chaos-factory.github.io/ideator-execution-008-digital-nomad-visa-1-routefit-eligibility-cards/](https://chaos-factory.github.io/ideator-execution-008-digital-nomad-visa-1-routefit-eligibility-cards/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fast eligibility snapshots for 20+ digital nomad and telework programs worldwide. Filter by nationality, work type, income, and dependents. Cards display Pass/Likely/Check nuance/Not eligible status with detailed modals and PDF/CSV export.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎯 Fast eligibility checks for digital nomad visa programs
+- 🌍 20+ programs covering Europe, Americas, Asia, and more
+- 💱 Real-time currency conversion using ECB rates
+- 🔍 Advanced filtering by nationality, work type, income, region, duration
+- 📊 Export shortlist to PDF or CSV
+- ♿ Accessible with keyboard navigation and ARIA labels
+- 📱 Responsive design (mobile, tablet, desktop)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Framework:** Vite + React 19 + TypeScript
+- **Routing:** React Router (HashRouter for GitHub Pages)
+- **Styling:** Tailwind CSS 4
+- **State:** React hooks + URL query params
+- **Currency API:** Frankfurter (ECB rates)
+- **Deployment:** GitHub Pages
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Quick Start
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+```bash
+# Install dependencies
+npm install
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+├── app/
+│   ├── components/    # React components
+│   ├── hooks/         # Custom React hooks
+│   ├── pages/         # Page components
+│   ├── utils/         # Utility functions
+│   ├── types.ts       # TypeScript types
+│   └── router.tsx     # Route configuration
+├── main.tsx           # Entry point
+└── index.css          # Global styles
+
+data/
+├── routefit/
+│   └── programs.json  # Program data
+└── common/
+    ├── countries.json # Country reference
+    └── glossary.json  # Term definitions
+```
+
+## Data Sources
+
+All program information is sourced from official government websites and immigration authorities. Each program entry includes:
+- Last verification date (`as_of`)
+- Confidence level (`official_law`, `official_guidance`, `post_practice`)
+- Direct link to official source
+
+## GitHub Pages Deployment
+
+The site automatically deploys to GitHub Pages on push to `main`. The workflow also runs on pull requests for preview builds.
+
+**Note:** This project uses HashRouter to ensure compatibility with GitHub Pages routing without custom server configuration.
+
+## License
+
+Open source project for educational and informational purposes.
+
+## Disclaimer
+
+RouteFit provides eligibility information based on publicly available sources. This is not legal advice. Requirements change frequently. Always verify with official sources before making travel or relocation decisions.
