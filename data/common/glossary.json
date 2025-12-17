@@ -1,0 +1,21 @@
+{
+  "pass": "All requirements appear to be met based on the information provided.",
+  "likely": "Program requirements are likely met, but some details may need verification.",
+  "check_nuance": "Additional conditions apply. Review the program details carefully.",
+  "not_eligible": "One or more key requirements are not met.",
+  "work_types": {
+    "employee": "Remote employee working for a company",
+    "freelancer": "Independent contractor or consultant",
+    "self_employed": "Business owner or entrepreneur"
+  },
+  "local_work_cap": "Maximum percentage of income that can be earned from local clients/companies",
+  "basis": {
+    "monthly": "Per month income requirement",
+    "annual": "Per year income requirement"
+  },
+  "confidence": {
+    "official_law": "Based on official legislation",
+    "official_guidance": "Based on official government guidance",
+    "post_practice": "Based on reported practices and experiences"
+  }
+}
