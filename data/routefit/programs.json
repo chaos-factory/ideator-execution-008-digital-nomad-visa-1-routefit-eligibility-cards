@@ -1,0 +1,529 @@
+[
+  {
+    "program_id": "portugal-d7",
+    "country_code": "PT",
+    "name": "Portugal D7 Passive Income Visa",
+    "work_types": ["freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 760,
+      "currency": "EUR",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": null,
+    "insurance_min": {
+      "amount": 30000,
+      "currency": "EUR"
+    },
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Portuguese consulate in country of residence",
+    "official_url": "https://www.portugal.gov.pt/en/gc23/communication/news/portugal-welcomes-you-digital-nomads",
+    "as_of": "2024-01-15",
+    "confidence": "official_guidance",
+    "notes": "Requires proof of passive income or remote work contract. Popular for digital nomads."
+  },
+  {
+    "program_id": "estonia-digi",
+    "country_code": "EE",
+    "name": "Estonia Digital Nomad Visa",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 4500,
+      "currency": "EUR",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 20,
+    "insurance_min": {
+      "amount": 50000,
+      "currency": "EUR"
+    },
+    "duration_months": 12,
+    "renewable": false,
+    "application_channel": "Estonian embassy or e-Residency portal",
+    "official_url": "https://e-resident.gov.ee/nomadvisa/",
+    "as_of": "2024-02-01",
+    "confidence": "official_law",
+    "notes": "Requires company registration outside Estonia. Max 20% local client work."
+  },
+  {
+    "program_id": "spain-digi",
+    "country_code": "ES",
+    "name": "Spain Digital Nomad Visa",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 2400,
+      "currency": "EUR",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 20,
+    "insurance_min": null,
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Spanish consulate",
+    "official_url": "https://www.exteriores.gob.es/en/ServiciosAlCiudadano/Paginas/Visado-teletrabajo.aspx",
+    "as_of": "2024-01-10",
+    "confidence": "official_guidance",
+    "notes": "New startup law includes digital nomad provisions. Max 20% Spanish client work."
+  },
+  {
+    "program_id": "greece-digi",
+    "country_code": "GR",
+    "name": "Greece Digital Nomad Visa",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 3500,
+      "currency": "EUR",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": {
+      "amount": 30000,
+      "currency": "EUR"
+    },
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Greek consulate",
+    "official_url": "https://www.mfa.gr/en/visas/visa-types/national-visas.html",
+    "as_of": "2024-03-01",
+    "confidence": "official_guidance",
+    "notes": "No local work permitted. Must work exclusively for non-Greek companies."
+  },
+  {
+    "program_id": "croatia-digi",
+    "country_code": "HR",
+    "name": "Croatia Digital Nomad Residence Permit",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 2870,
+      "currency": "EUR",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": {
+      "amount": 30000,
+      "currency": "EUR"
+    },
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Croatian diplomatic mission",
+    "official_url": "https://mup.gov.hr/aliens-281621/temporary-stay-281662/281662",
+    "as_of": "2024-01-20",
+    "confidence": "official_law",
+    "notes": "One of the first EU digital nomad programs. No local work allowed."
+  },
+  {
+    "program_id": "italy-digi",
+    "country_code": "IT",
+    "name": "Italy Digital Nomad Visa",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 28000,
+      "currency": "EUR",
+      "basis": "annual"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": null,
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Italian consulate",
+    "official_url": "https://vistoperitalia.esteri.it/home/en",
+    "as_of": "2024-04-01",
+    "confidence": "post_practice",
+    "notes": "Recently introduced. Requires specialized qualification and remote work contract."
+  },
+  {
+    "program_id": "malta-digi",
+    "country_code": "MT",
+    "name": "Malta Nomad Residence Permit",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 3200,
+      "currency": "EUR",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": {
+      "amount": 30000,
+      "currency": "EUR"
+    },
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Residency Malta Agency",
+    "official_url": "https://nomad.residencymalta.gov.mt/",
+    "as_of": "2024-02-15",
+    "confidence": "official_law",
+    "notes": "EU member with English as official language. No local work permitted."
+  },
+  {
+    "program_id": "czech-digi",
+    "country_code": "CZ",
+    "name": "Czech Republic Zivno Visa",
+    "work_types": ["freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 1500,
+      "currency": "EUR",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": null,
+    "insurance_min": null,
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Czech consulate",
+    "official_url": "https://www.mzv.cz/jnp/en/information_for_aliens/general_visa_information/index.html",
+    "as_of": "2024-01-05",
+    "confidence": "post_practice",
+    "notes": "Trade license (Zivno) pathway. Local work permitted. Lower income threshold."
+  },
+  {
+    "program_id": "uae-virtual",
+    "country_code": "AE",
+    "name": "UAE Virtual Working Program",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to all nationalities"
+    },
+    "income_requirement": {
+      "amount": 5000,
+      "currency": "USD",
+      "basis": "monthly"
+    },
+    "dependents_allowed": false,
+    "local_work_cap_percent": 0,
+    "insurance_min": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Online application",
+    "official_url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/virtual-work-residence-visa",
+    "as_of": "2024-03-10",
+    "confidence": "official_law",
+    "notes": "High income requirement. No dependents. Dubai-based program."
+  },
+  {
+    "program_id": "georgia-remotely",
+    "country_code": "GE",
+    "name": "Georgia Remotely from Georgia",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to all nationalities with visa-free entry"
+    },
+    "income_requirement": {
+      "amount": 2000,
+      "currency": "USD",
+      "basis": "monthly"
+    },
+    "dependents_allowed": false,
+    "local_work_cap_percent": 0,
+    "insurance_min": null,
+    "duration_months": 12,
+    "renewable": false,
+    "application_channel": "Online application",
+    "official_url": "https://www.gov.ge/en",
+    "as_of": "2024-02-20",
+    "confidence": "official_guidance",
+    "notes": "Simple online application. No local work permitted."
+  },
+  {
+    "program_id": "mexico-temp",
+    "country_code": "MX",
+    "name": "Mexico Temporary Resident Visa",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to all nationalities"
+    },
+    "income_requirement": {
+      "amount": 3600,
+      "currency": "USD",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": null,
+    "insurance_min": null,
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Mexican consulate",
+    "official_url": "https://www.gob.mx/inm",
+    "as_of": "2024-01-30",
+    "confidence": "official_law",
+    "notes": "Can work locally with proper permits. Popular with US remote workers."
+  },
+  {
+    "program_id": "costa-rica-rentista",
+    "country_code": "CR",
+    "name": "Costa Rica Rentista Residence",
+    "work_types": ["freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to all nationalities"
+    },
+    "income_requirement": {
+      "amount": 2500,
+      "currency": "USD",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": null,
+    "duration_months": 24,
+    "renewable": true,
+    "application_channel": "Costa Rican consulate",
+    "official_url": "https://www.migracion.go.cr/",
+    "as_of": "2024-03-05",
+    "confidence": "official_guidance",
+    "notes": "2-year initial permit. Requires proof of stable income. No local employment."
+  },
+  {
+    "program_id": "barbados-12month",
+    "country_code": "BB",
+    "name": "Barbados Welcome Stamp",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to all nationalities"
+    },
+    "income_requirement": {
+      "amount": 50000,
+      "currency": "USD",
+      "basis": "annual"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": null,
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Online application",
+    "official_url": "https://www.barbadoswelcomestamp.bb/",
+    "as_of": "2024-02-10",
+    "confidence": "official_law",
+    "notes": "First Caribbean digital nomad program. Fast online application."
+  },
+  {
+    "program_id": "mauritius-premium",
+    "country_code": "MU",
+    "name": "Mauritius Premium Visa",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to all nationalities"
+    },
+    "income_requirement": {
+      "amount": 1500,
+      "currency": "USD",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": null,
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Online application",
+    "official_url": "https://www.edbmauritius.org/mauritius-premium-visa",
+    "as_of": "2024-03-15",
+    "confidence": "official_law",
+    "notes": "Tropical paradise option. English-speaking. Competitive income requirement."
+  },
+  {
+    "program_id": "iceland-longstay",
+    "country_code": "IS",
+    "name": "Iceland Long-term Visa for Remote Work",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 7000,
+      "currency": "USD",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": {
+      "amount": 50000,
+      "currency": "EUR"
+    },
+    "duration_months": 6,
+    "renewable": true,
+    "application_channel": "Icelandic Directorate of Immigration",
+    "official_url": "https://www.utl.is/en/",
+    "as_of": "2024-01-25",
+    "confidence": "official_guidance",
+    "notes": "High income requirement. 6-month initial period. Stunning natural beauty."
+  },
+  {
+    "program_id": "norway-ind",
+    "country_code": "NO",
+    "name": "Norway Independent Contractor Permit",
+    "work_types": ["freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 35000,
+      "currency": "NOK",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": null,
+    "insurance_min": null,
+    "duration_months": 12,
+    "renewable": true,
+    "application_channel": "Norwegian UDI",
+    "official_url": "https://www.udi.no/en/",
+    "as_of": "2024-02-28",
+    "confidence": "official_law",
+    "notes": "Can work for both Norwegian and foreign clients. High cost of living."
+  },
+  {
+    "program_id": "romania-digi",
+    "country_code": "RO",
+    "name": "Romania Digital Nomad Visa",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to non-EU/EEA/Swiss nationals"
+    },
+    "income_requirement": {
+      "amount": 3700,
+      "currency": "EUR",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": {
+      "amount": 50000,
+      "currency": "EUR"
+    },
+    "duration_months": 12,
+    "renewable": false,
+    "application_channel": "Romanian consulate",
+    "official_url": "https://www.mae.ro/en",
+    "as_of": "2024-04-10",
+    "confidence": "official_guidance",
+    "notes": "Recently launched. Bucharest and Brasov popular with nomads."
+  },
+  {
+    "program_id": "thailand-ltr",
+    "country_code": "TH",
+    "name": "Thailand Long-Term Resident Visa (Digital)",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to all nationalities"
+    },
+    "income_requirement": {
+      "amount": 80000,
+      "currency": "USD",
+      "basis": "annual"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "duration_months": 60,
+    "renewable": true,
+    "application_channel": "Online application to BOI",
+    "official_url": "https://ltr.boi.go.th/",
+    "as_of": "2024-03-20",
+    "confidence": "official_law",
+    "notes": "5-year visa. High income requirement. Popular Southeast Asia destination."
+  },
+  {
+    "program_id": "indonesia-b211",
+    "country_code": "ID",
+    "name": "Indonesia B211A Second Home Visa",
+    "work_types": ["employee", "freelancer", "self_employed"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Open to all nationalities"
+    },
+    "income_requirement": {
+      "amount": 2000,
+      "currency": "USD",
+      "basis": "monthly"
+    },
+    "dependents_allowed": true,
+    "local_work_cap_percent": 0,
+    "insurance_min": null,
+    "duration_months": 60,
+    "renewable": true,
+    "application_channel": "Indonesian immigration office",
+    "official_url": "https://www.imigrasi.go.id/",
+    "as_of": "2024-04-05",
+    "confidence": "post_practice",
+    "notes": "5-year visa. Bali and Jakarta popular with digital nomads. No local work."
+  },
+  {
+    "program_id": "japan-designact",
+    "country_code": "JP",
+    "name": "Japan Designated Activities Visa",
+    "work_types": ["employee"],
+    "nationality_rules": {
+      "excluded_nationalities": [],
+      "notes": "Available through bilateral agreements with select countries"
+    },
+    "income_requirement": {
+      "amount": 200000,
+      "currency": "JPY",
+      "basis": "monthly"
+    },
+    "dependents_allowed": false,
+    "local_work_cap_percent": 28,
+    "insurance_min": null,
+    "duration_months": 6,
+    "renewable": true,
+    "application_channel": "Japanese embassy",
+    "official_url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+    "as_of": "2024-03-01",
+    "confidence": "official_law",
+    "notes": "Limited to certain nationalities. Can work up to 28 hours/week locally."
+  }
+]
